@@ -71,9 +71,9 @@ class Account extends User {
   /**
    * @param {{url: string, content: string}} options
    */
-  async post(options) {
+  async post(url, content) {
     this.#authCheck()
-    return await postMessage(options, this.#cookies)
+    return await postMessage({ url, content }, this.#cookies)
   }
 
   /**

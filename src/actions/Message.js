@@ -38,8 +38,8 @@ class Message {
   async edit(content) {
     return await editMessage({ message: this, content }, this.#cookies, Message)
   }
-  async delete() {
-    await deleteMessage({ message: this }, this.#cookies)
+  async delete(reason) {
+    await deleteMessage({ message: this, reason }, this.#cookies)
   }
   async addReaction(reaction_id) {
     return addReaction({ message: this, reaction_id }, this.#cookies, Message)

@@ -19,6 +19,10 @@ class Forums {
     return this.cookies.isLoggedIn()
   }
 
+  /**
+   * @param {username:string, password:string} form
+   * @returns {Account}
+   */
   async login(form) {
     if (this.cookies.isLoggedIn()) return
     await this.cookies.update()
