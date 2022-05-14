@@ -1,0 +1,16 @@
+{
+  "name": "jartexnetwork-api",
+  "version": "1.0.0",
+  "description": "API for JartexNetwork forums",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usserwout/JartexNetwork-API.git"
+  },
+  "author": "usserwout",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^5.3.3",
+    "xml-js": "^1.6.11"
+  }
+}
