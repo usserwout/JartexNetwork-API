@@ -2,7 +2,7 @@
   "name": "jartexnetwork-api",
   "version": "1.0.0",
   "description": "API for JartexNetwork forums",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/usserwout/JartexNetwork-API.git"

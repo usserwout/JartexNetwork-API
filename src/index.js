@@ -10,7 +10,7 @@ const getRules = require("./actions/getRules")
 const getPunishments = require("./actions/punishments")
 const Thread = require("./actions/Thread")
 
-class JartexNetwork {
+class Forums {
   constructor() {
     this.cookies = new Cookies()
   }
@@ -88,4 +88,4 @@ class JartexNetwork {
   }
 }
 
-module.exports = new JartexNetwork()
+module.exports = new Forums()
