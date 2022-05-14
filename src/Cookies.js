@@ -4,9 +4,6 @@ class Cookies {
   cookies = {}
   #cookie_cache = {}
   #account = {}
-  constructor() {
-    // this.set("xf_notice_dismiss", "-1")
-  }
 
   set(name, value) {
     this.cookies[name] = value

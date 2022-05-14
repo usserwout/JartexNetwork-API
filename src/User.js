@@ -52,15 +52,3 @@ class User {
 }
 
 module.exports = User
-
-// fetch("https://jartexnetwork.com/members/maybeitsdestiny_.41752/", {
-//   headers: {
-//     "sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
-//     "sec-ch-ua-mobile": "?0",
-//     "sec-ch-ua-platform": '"macOS"',
-//     "upgrade-insecure-requests": "1",
-//   },
-//   referrerPolicy: "strict-origin-when-cross-origin",
-//   body: null,
-//   method: "GET",
-// })
